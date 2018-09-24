@@ -1,6 +1,6 @@
 numbers = [1,2,3]
 def square_array(array)
-  numbers.each do |apple|
-    puts "Taking out #{apple}"
-end
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
 end
