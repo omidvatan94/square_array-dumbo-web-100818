@@ -1,4 +1,6 @@
 numbers = [1,2,3]
 def square_array(array)
-  # your code here
+  numbers.each do |apple|
+    puts "Taking out #{apple}"
+end
 end
